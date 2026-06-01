@@ -1,7 +1,8 @@
+import JSXBasics from "./jsx-basic/JSXBasics";
 function App() {
   return (
     <div>
-      <h1>React Playground</h1>
+      <JSXBasics />
     </div>
   );
 }
