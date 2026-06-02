@@ -3,6 +3,7 @@ import JSXBasics2 from "./jsx-basic/JSXBasics2";
 import Greeting from "./component-props/Greeting";
 import Card from "./component-props/Card";
 import Parent from "./component-props/Parent";
+import CounterDemo from "./useState/CounterDemo";
 
 function App() {
   return (
@@ -10,11 +11,11 @@ function App() {
       {/* <JSXBasics /> */}
       {/* <JSXBasics2 /> */}
       {/* <Greeting /> */}
-      <Card title="React" text="A JS library for building UIs" />
-      <Card title="JavaScript" text="The language of the web" />
-      <Card title="HTML" text="Structure of a webpage" />
-
-      <Parent />
+      {/* <Card title="React" text="A JS library for building UIs" /> */}
+      {/* <Card title="JavaScript" text="The language of the web" /> */}
+      {/* <Card title="HTML" text="Structure of a webpage" /> */}
+      {/* <Parent /> */}
+      <CounterDemo />
     </div>
   );
 }
