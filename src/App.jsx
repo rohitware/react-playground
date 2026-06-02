@@ -4,6 +4,7 @@ import Greeting from "./component-props/Greeting";
 import Card from "./component-props/Card";
 import Parent from "./component-props/Parent";
 import CounterDemo from "./useState/CounterDemo";
+import InputDemo from "./useState/InputDemo";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       {/* <Card title="JavaScript" text="The language of the web" /> */}
       {/* <Card title="HTML" text="Structure of a webpage" /> */}
       {/* <Parent /> */}
-      <CounterDemo />
+      <InputDemo />
     </div>
   );
 }
