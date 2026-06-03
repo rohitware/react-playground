@@ -5,6 +5,11 @@ import Card from "./component-props/Card";
 import Parent from "./component-props/Parent";
 import CounterDemo from "./useState/CounterDemo";
 import InputDemo from "./useState/InputDemo";
+import ToggleDemo from "./useState/ToggleDemo";
+import ToggleDemo1 from "./useState/ToggleDemo1";
+import ObjectDemo from "./useState/ObjectDemo";
+import PrevStateDemo from "./useState/PrevStateDemo";
+import ArrayDemo from "./useState/ArrayDemo";
 
 function App() {
   return (
@@ -16,7 +21,13 @@ function App() {
       {/* <Card title="JavaScript" text="The language of the web" /> */}
       {/* <Card title="HTML" text="Structure of a webpage" /> */}
       {/* <Parent /> */}
-      <InputDemo />
+      {/* <CounterDemo /> */}
+      {/* <InputDemo /> */}
+      {/* <ToggleDemo /> */}
+      {/* <ToggleDemo1 /> */}
+      <ObjectDemo />
+      <PrevStateDemo />
+      <ArrayDemo />
     </div>
   );
 }
