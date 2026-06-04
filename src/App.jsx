@@ -10,6 +10,7 @@ import ToggleDemo1 from "./useState/ToggleDemo1";
 import ObjectDemo from "./useState/ObjectDemo";
 import PrevStateDemo from "./useState/PrevStateDemo";
 import ArrayDemo from "./useState/ArrayDemo";
+import UseEffectDemo from "./useEffect/UseEffectDemo";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
       {/* <InputDemo /> */}
       {/* <ToggleDemo /> */}
       {/* <ToggleDemo1 /> */}
-      <ObjectDemo />
-      <PrevStateDemo />
-      <ArrayDemo />
+      {/* <ObjectDemo /> */}
+      {/* <PrevStateDemo /> */}
+      {/* <ArrayDemo /> */}
+      <UseEffectDemo />
     </div>
   );
 }
