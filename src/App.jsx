@@ -11,6 +11,7 @@ import ObjectDemo from "./useState/ObjectDemo";
 import PrevStateDemo from "./useState/PrevStateDemo";
 import ArrayDemo from "./useState/ArrayDemo";
 import UseEffectDemo from "./useEffect/UseEffectDemo";
+import CleanupDemo from "./useEffect/CleanupDemo";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ObjectDemo /> */}
       {/* <PrevStateDemo /> */}
       {/* <ArrayDemo /> */}
-      <UseEffectDemo />
+      {/* <UseEffectDemo /> */}
+      <CleanupDemo />
     </div>
   );
 }
