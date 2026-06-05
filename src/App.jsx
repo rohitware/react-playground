@@ -12,6 +12,8 @@ import PrevStateDemo from "./useState/PrevStateDemo";
 import ArrayDemo from "./useState/ArrayDemo";
 import UseEffectDemo from "./useEffect/UseEffectDemo";
 import CleanupDemo from "./useEffect/CleanupDemo";
+import Timer from "./useEffect/Timer";
+import Timer2 from "./useEffect/Timer2";
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <PrevStateDemo /> */}
       {/* <ArrayDemo /> */}
       {/* <UseEffectDemo /> */}
-      <CleanupDemo />
+      {/* <CleanupDemo /> */}
+      <Timer />
+      <Timer2 />
     </div>
   );
 }
