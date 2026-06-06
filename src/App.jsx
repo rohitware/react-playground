@@ -16,6 +16,9 @@ import Timer from "./useEffect/Timer";
 import Timer2 from "./useEffect/Timer2";
 import Users from "./useEffect/FetchDemo";
 import UseRefDemo from "./useRef/UseRefDemo";
+import RefExample from "./useRef/RefExample";
+import StateName from "./useRef/StateName";
+import RefName from "./useRef/RefName";
 
 function App() {
   return (
@@ -39,7 +42,10 @@ function App() {
       {/* <Timer /> */}
       {/* <Timer2 /> */}
       {/* <Users /> */}
-      <UseRefDemo />
+      {/* <UseRefDemo /> */}
+      <RefExample />
+      <StateName />
+      <RefName />
     </div>
   );
 }
