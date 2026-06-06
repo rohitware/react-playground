@@ -15,6 +15,7 @@ import CleanupDemo from "./useEffect/CleanupDemo";
 import Timer from "./useEffect/Timer";
 import Timer2 from "./useEffect/Timer2";
 import Users from "./useEffect/FetchDemo";
+import UseRefDemo from "./useRef/UseRefDemo";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <CleanupDemo /> */}
       {/* <Timer /> */}
       {/* <Timer2 /> */}
-      <Users />
+      {/* <Users /> */}
+      <UseRefDemo />
     </div>
   );
 }
