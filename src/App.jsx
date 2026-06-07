@@ -19,6 +19,7 @@ import UseRefDemo from "./useRef/UseRefDemo";
 import RefExample from "./useRef/RefExample";
 import StateName from "./useRef/StateName";
 import RefName from "./useRef/RefName";
+import UseContextDemo from "./useContext/UseContextDemo";
 
 function App() {
   return (
@@ -43,9 +44,10 @@ function App() {
       {/* <Timer2 /> */}
       {/* <Users /> */}
       {/* <UseRefDemo /> */}
-      <RefExample />
-      <StateName />
-      <RefName />
+      {/* <RefExample /> */}
+      {/* <StateName /> */}
+      {/* <RefName /> */}
+      <UseContextDemo />
     </div>
   );
 }
