@@ -20,6 +20,7 @@ import RefExample from "./useRef/RefExample";
 import StateName from "./useRef/StateName";
 import RefName from "./useRef/RefName";
 import UseContextDemo from "./useContext/UseContextDemo";
+import AuthDemo from "./useContext/AuthDemo";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       {/* <RefExample /> */}
       {/* <StateName /> */}
       {/* <RefName /> */}
-      <UseContextDemo />
+      {/* <UseContextDemo /> */}
+      <AuthDemo />
     </div>
   );
 }
