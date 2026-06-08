@@ -21,6 +21,7 @@ import StateName from "./useRef/StateName";
 import RefName from "./useRef/RefName";
 import UseContextDemo from "./useContext/UseContextDemo";
 import AuthDemo from "./useContext/AuthDemo";
+import CounterReducer from "./useReducer/CounterReducer";
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
       {/* <StateName /> */}
       {/* <RefName /> */}
       {/* <UseContextDemo /> */}
-      <AuthDemo />
+      <CounterReducer />
     </div>
   );
 }
