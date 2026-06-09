@@ -24,6 +24,7 @@ import AuthDemo from "./useContext/AuthDemo";
 import CounterReducer from "./useReducer/CounterReducer";
 import LightReducer from "./useReducer/LightReducer";
 import UseMemoDemo from "./useMemo/UseMemoDemo";
+import UseCallbackDemo from "./useCallback/UseCallbackDemo";
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <UseContextDemo /> */}
       {/* <CounterReducer /> */}
       {/* <LightReducer /> */}
-      <UseMemoDemo />
+      {/* <UseMemoDemo /> */}
+      <UseCallbackDemo />
     </div>
   );
 }
