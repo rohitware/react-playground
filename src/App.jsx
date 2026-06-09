@@ -23,6 +23,7 @@ import UseContextDemo from "./useContext/UseContextDemo";
 import AuthDemo from "./useContext/AuthDemo";
 import CounterReducer from "./useReducer/CounterReducer";
 import LightReducer from "./useReducer/LightReducer";
+import UseMemoDemo from "./useMemo/UseMemoDemo";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <RefName /> */}
       {/* <UseContextDemo /> */}
       {/* <CounterReducer /> */}
-      <LightReducer />
+      {/* <LightReducer /> */}
+      <UseMemoDemo />
     </div>
   );
 }
