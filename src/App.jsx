@@ -27,6 +27,11 @@ import UseMemoDemo from "./useMemo/UseMemoDemo";
 import UseCallbackDemo from "./useCallback/UseCallbackDemo";
 import SimpleForm from "./Forms/SimpleForm";
 import FormDemo from "./Forms/FormDemo";
+import Navbar from "./ReactRouter/Navbar";
+import Home from "./ReactRouter/Home";
+import About from "./ReactRouter/About";
+import { Routes, Route } from "react-router-dom";
+import Contact from "./ReactRouter/Contact";
 
 function App() {
   return (
@@ -60,7 +65,14 @@ function App() {
       {/* <UseMemoDemo /> */}
       {/* <UseCallbackDemo /> */}
       {/* <SimpleForm /> */}
-      <FormDemo />
+      {/* <FormDemo /> */}
+
+      <Navbar />
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
