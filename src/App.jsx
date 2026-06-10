@@ -25,6 +25,7 @@ import CounterReducer from "./useReducer/CounterReducer";
 import LightReducer from "./useReducer/LightReducer";
 import UseMemoDemo from "./useMemo/UseMemoDemo";
 import UseCallbackDemo from "./useCallback/UseCallbackDemo";
+import SimpleForm from "./Forms/SimpleForm";
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <CounterReducer /> */}
       {/* <LightReducer /> */}
       {/* <UseMemoDemo /> */}
-      <UseCallbackDemo />
+      {/* <UseCallbackDemo /> */}
+      <SimpleForm />
     </div>
   );
 }
