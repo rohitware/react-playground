@@ -32,7 +32,9 @@ import Home from "./ReactRouter/Home";
 import About from "./ReactRouter/About";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./ReactRouter/Contact";
-
+import React from "react";
+import { lazy, Suspense } from "react";
+const LazyHome = lazy(() => import("./lazyLoading/LazyHome"));
 function App() {
   return (
     <div>
@@ -67,12 +69,15 @@ function App() {
       {/* <SimpleForm /> */}
       {/* <FormDemo /> */}
 
-      <Navbar />
-      <Routes>
+      {/* <Navbar /> */}
+      {/* <Routes>
         <Route path="" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </Routes> */}
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <LazyHome />
+      </Suspense>
     </div>
   );
 }
