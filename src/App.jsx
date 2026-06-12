@@ -35,6 +35,7 @@ import Contact from "./ReactRouter/Contact";
 import React from "react";
 import { lazy, Suspense } from "react";
 const LazyHome = lazy(() => import("./lazyLoading/LazyHome"));
+const Profile = lazy(() => import("./lazyLoading/Profile"));
 function App() {
   return (
     <div>
@@ -76,7 +77,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes> */}
       <Suspense fallback={<h2>Loading...</h2>}>
-        <LazyHome />
+        {/* <LazyHome /> */}
+        <Profile />
       </Suspense>
     </div>
   );

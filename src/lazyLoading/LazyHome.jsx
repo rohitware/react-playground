@@ -1,4 +1,4 @@
-function Home() {
+function LazyHome() {
   return (
     <>
       <h1>Home Component</h1>
@@ -7,4 +7,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default LazyHome;
