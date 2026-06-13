@@ -34,6 +34,7 @@ import { Routes, Route } from "react-router-dom";
 import Contact from "./ReactRouter/Contact";
 import React from "react";
 import { lazy, Suspense } from "react";
+import AxiosDemo from "./Axios/AxiosDemo";
 const LazyHome = lazy(() => import("./lazyLoading/LazyHome"));
 const Profile = lazy(() => import("./lazyLoading/Profile"));
 function App() {
@@ -76,10 +77,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes> */}
-      <Suspense fallback={<h2>Loading...</h2>}>
-        {/* <LazyHome /> */}
-        <Profile />
-      </Suspense>
+      {/* <Suspense fallback={<h2>Loading...</h2>}> */}
+      {/* <LazyHome /> */}
+      {/* <Profile /> */}
+      {/* </Suspense> */}
+      <AxiosDemo />
     </div>
   );
 }
